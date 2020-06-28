@@ -1,0 +1,15 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "maigunmod",
+    "name": "MaiGunMod",
+    "authors": [ "maibock" ],
+    "maintainers": [ "maibock" ],
+    "description": "Mod that adds some obscure and familiar firearms to your Cataclysm. Adds a couple of new map locations for the importation of some firearms to make sense.
+",
+    "category": "content",
+    "dependencies": [ "dda" ]
+    "obsolete":false
+  },
+ 
+]
