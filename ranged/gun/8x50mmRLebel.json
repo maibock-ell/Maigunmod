@@ -1,0 +1,50 @@
+[
+  {
+    "id": "chauchat",
+    "looks_like": "ar15",
+    "type": "GUN",
+    "reload_noise_volume": 10,
+    "name": { "str": "Chauchat Light Machine Gun" },
+    "description": "An antique machine rifle that was standard for the French Army during the Great War, somehow imported into the United States. Supposedly the worst machine gun ever fielded, but will serve you well during these trying times.",
+    "weight": "9072 g",
+    "volume": "2750" ml",
+    "price": 350000,
+    "price_postapoc": 1500,
+    "to_hit": -1,
+    "bashing": 10,
+    "material": [ "steel", "wood" ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": [ "8x50mmRLebel" ],
+    "skill": "rifle",
+    "dispersion": 175,
+    "durability": 8,
+    "min_cycle_recoil": 3420,
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 3 ] ],
+    "barrel_length": "1000 ml",
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "faults": [ "fault_gun_blackpowder", "fault_gun_dirt", "fault_gun_chamber_spent" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "chauchatmag"]
+      }
+    ]
+  }
+]

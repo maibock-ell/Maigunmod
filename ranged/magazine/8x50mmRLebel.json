@@ -1,0 +1,21 @@
+[
+  {
+    "id": "chauchatmag",
+    "looks_like": "stanag30",
+    "type": "MAGAZINE",
+    "name": { "str": "Chauchat magazine" },
+    "//": "Strangely shaped magazines, proned to mud related issues.",
+    "description": "A rather strange standard capacity magazine for use with the Chauchat Automatic Rifle, holds 20 rounds, shaped like a crescent. Might not want to drop these in the mud.",
+    "weight": "200 g",
+    "volume": "500 ml",
+    "price": 3600,
+    "price_postapoc": 100,
+    "material": [ "steel" ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "8x50mmRLebel" ],
+    "capacity": 20,
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "8x50mmRLebel": 20 } } ]
+  }
+]
