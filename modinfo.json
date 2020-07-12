@@ -9,6 +9,7 @@
 ",
     "category": "content",
     "dependencies": [ "dda" ]
+    "path":../json",
     "obsolete": false
   },
  
